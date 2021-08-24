@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width", initial-scale=1.0>
     <title>
-        % block title %
+        {% block title %}
         <!-- Title goes here -->
-        % end block title %
+        {% endblock title %}
     </title>
 </head>
 <header>
@@ -17,8 +17,8 @@
     </nav>
 </header>
 <body>
-    % block content %
+    {% block content %}
     <!-- This is where our content for our page is going to go  -->
-    % end block content %
+    {% endblock content %}
 </body>
 </html>
